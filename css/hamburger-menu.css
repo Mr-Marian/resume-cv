@@ -14,7 +14,7 @@ body {
     --bar-width: 60px;
     --bar-height: 8px;
     --hamburger-gap: 6px;
-    --foreground: #333;
+    --foreground: rgb(51, 51, 51);
     --background: white;
     --hamburger-margin: 5px;
     --animation-timing: 200ms ease-in-out;
@@ -93,11 +93,11 @@ body {
     translate: -100%;
     padding: 0.5rem 1rem;
     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
-    background-color: var(--foreground);
+    background-color: rgba(51, 51, 51, 0.9);
     color: var(--background);
     max-width: 10rem;
     min-height: 100vh;
-}
+} 
 
 .hamburger-menu:has(input:checked) + .sidebar {
     translate: 0;
