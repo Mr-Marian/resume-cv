@@ -1,0 +1,26 @@
+main {
+    background: rgb(239, 230, 205);
+    width: 80%;
+       
+    text-align: justify;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    
+    padding: 1.25rem 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.year {
+    font-size: 1.15rem;
+
+    margin: 0.1rem;
+}
+
+.company {
+    font-size: 1.15rem;
+    margin: 0.1rem;
+}

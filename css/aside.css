@@ -1,0 +1,40 @@
+aside {
+color: rgb(34, 34, 34);
+
+    background-image: linear-gradient(
+        to right,
+        rgb(151, 191, 4),
+        rgb(97, 140,3)        
+    );
+    
+    width: 20rem;
+
+    border-right: 1px dotted rgb(34, 34, 34);
+
+    padding: 2rem;
+}
+
+img {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    width: 15rem;
+    border-radius: 50%;
+    position: relative;
+    align-items: center;
+}
+
+.year {
+    font-size: 1rem;
+
+    margin: 0.1rem;
+}
+
+.school {
+    font-size: 0.75rem;
+
+    margin: 0.1rem;
+}
+
+.education {
+    font-size: 0.75rem;
+}
