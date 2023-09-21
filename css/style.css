@@ -24,6 +24,10 @@ header {
     position: fixed;
 }
 
+p {
+    text-indent: 2rem;
+}
+
 a {
     text-decoration: none;
     color: white;
